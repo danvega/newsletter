@@ -1,0 +1,8 @@
+
+convertkit:
+  url: https://api.convertkit.com/v3
+  api_key: YOUR_SECRET_API_KEY
+spring:
+  config:
+    import:
+        - optional:secrets.yaml # my secret key is here and not checked into git
